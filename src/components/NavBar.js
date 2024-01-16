@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import React from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
 import { GithubIcon, LinkedInIcon, TwitterXIcon } from './icons'
