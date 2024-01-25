@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Portfolio</title>
+        <title>Omar Farid | Portfolio</title>
       </Head>
       <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>
         <NavBar />
