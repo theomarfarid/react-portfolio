@@ -43,15 +43,20 @@ export default function Experience() {
                 <motion.div style={{ scaleY: scrollYProgress }}
                     className='absolute left-9 top-0 w-[4px]  h-full bg-dark origin-top' />
                 <ul className='w-full flex flex-col items-start justify-between ml-4'>
-                    <Details position="Frontend Engineer" company="SFC Foundations"
-                        companyLink="http://sfcfoundations.com/"
-                        time="September 21 - March 22" address="Chandigarh"
-                        work="I worked as a frontend WordPress developer, where my primary responsibilities involved implementing changes to the event and blog sections of the website. I was responsible for ensuring that the design and functionality of these sections were updated accurately and efficiently. This included working closely with the design and content teams to understand their requirements and translating them into code."
+                    <Details position="IT technician" company="English House"
+                        companyLink="javascript:void(0)"
+                        time="June 16 - September 16" address="Cairo"
+                        work="I worked as an IT technician, where my responsibilities involved all the technical related devices and other media related stuff. I was responsible for ensuring that the functionality were updated accurately and efficiently."
                     />
-                    <Details position="Frontend Developer" company="UI Cardio"
-                        companyLink="https://uicard.io/"
-                        time="Feb 21 - June 21" address="Gurugram, Haryana"
-                        work="I worked as a fresher frontend developer involved proficiently using HTML, CSS, JavaScript, and frontend frameworks to create visually appealing and functional websites. I actively contributed to project discussions, collaborated with cross-functional teams, and ensured high-quality outputs through thorough testing and optimization."
+                    <Details position="Graphic Designer" company="Upwork"
+                        companyLink="https://upwork.com/"
+                        time="June 16 - September 16" address="Freelance"
+                        work="I worked as a graphic designer involved proficiently using photoshop, indesign, and illustrator to create visually appealing designs such as book covers or business cards."
+                    />
+                    <Details position="Web Development Instructor" company="DSC Modern Academy for Computer Science"
+                        companyLink="javascript:void(0)"
+                        time="January 21 - January 21" address="Cairo"
+                        work="I volunteered as a web developer instructor where this course was about node.js. I was responsible for giving assignments and revise them."
                     />
                 </ul>
             </div>

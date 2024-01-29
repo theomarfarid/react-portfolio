@@ -28,13 +28,15 @@ export default function Skills() {
                 <Skill name="HTML" x="-19vw" y='2vw' />
                 <Skill name="CSS" x="-5vw" y='-11vw' />
                 <Skill name="JavaScript" x="19vw" y='-2vw' />
-                <Skill name="ReactJS" x="0vw" y='15vw' />
-                <Skill name="NextJS" x="-22vw" y='-8vw' />
+                <Skill name="React" x="0vw" y='15vw' />
+                <Skill name="Next.js" x="-22vw" y='-8vw' />
                 <Skill name="Web Design" x="28vw" y='-8vw' />
-                <Skill name="Figma" x="5vw" y='-19vw' />
-                <Skill name="Firebase" x="-25vw" y='12vw' />
-                <Skill name="TailWind Css" x="28vw" y='10vw' />
+                <Skill name="SQL/NoSQL" x="5vw" y='-19vw' />
+                <Skill name="Python" x="-25vw" y='12vw' />
+                <Skill name="Node.js" x="28vw" y='10vw' />
+                <Skill name="Express.js" x="-12vw" y='-15vw' />
                 <Skill name="GIT" x="-28vw" y='-16vw' />
+                <Skill name="Linux" x="12vw" y='10vw' />
             </div>
         </>
     )

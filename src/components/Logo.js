@@ -9,13 +9,13 @@ export default function Logo() {
         <div className='flex items-center justify-center mt-2'>
             <MotionLink
                 href='/'
-                className='w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-bold'
+                className='w-48 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-bold'
                 whileHover={{
                     backgroundColor: backgroundColors,
                     transition: { duration: 1, repeat: Infinity }
                 }}
             >
-                OF
+                Omar Farid
             </MotionLink>
         </div>
     )

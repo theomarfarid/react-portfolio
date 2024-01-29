@@ -47,7 +47,7 @@ export default function Education() {
                     <Details type="Online Coursework"
                         time="2018-2022"
                         place="Udmey And EdX"
-                        info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+                        info="Completed coursework in advanced topics such as Machine Learning and Web Development."
                     />
                 </ul>
             </div>
