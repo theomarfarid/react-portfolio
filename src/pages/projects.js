@@ -8,6 +8,7 @@ import yummyPic from "../../public/images/projects/yummy-eats.png"
 import pricingPic from "../../public/images/projects/pricing-panel.png"
 import { GithubIcon } from '@/components/icons'
 import { motion } from 'framer-motion'
+import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image)
 
@@ -70,6 +71,7 @@ export default function projects() {
       <Head>
         <title>Omar Farid | Projects Page</title>
       </Head>
+      <TransitionEffect />
       <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text='Imagination Trumps Knowledge!' className='mb-16 lg:text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
