@@ -25,7 +25,7 @@ export default function Skills() {
         <motion.div className='flex items-center justify-center rounded-full font-semibold
                 bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2'
           whileHover={{ scale: 1.05 }}>
-          Web
+          Web / ML
         </motion.div>
         {/* <Skill name='Web' /> */}
         <Skill name="HTML" x="-19vw" y='2vw' />
@@ -40,6 +40,7 @@ export default function Skills() {
         <Skill name="Express.js" x="-12vw" y='-15vw' />
         <Skill name="GIT" x="-28vw" y='-16vw' />
         <Skill name="Linux" x="12vw" y='10vw' />
+        <Skill name="Deep Learning" x="12vw" y='-10vw' />
       </div>
     </>
   )

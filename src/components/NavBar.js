@@ -97,7 +97,7 @@ export default function NavBar() {
 
             <nav className='flex items-center justify-center flex-wrap mt-2'>
               <motion.a href='https://twitter.com/zaomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 sm:mx-1'>
-                <TwitterXIcon className='dark:fill-light' />
+                <TwitterXIcon className='fill-light dark:fill-dark' />
               </motion.a>
               <motion.a href='https://github.com/zaomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 bg-light dark:bg-dark rounded-full sm:mx-1'>
                 <GithubIcon />
