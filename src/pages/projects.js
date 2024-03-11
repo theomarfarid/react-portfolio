@@ -3,9 +3,11 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import project1 from "../../public/images/projects/placeholder.png"
+import zaCampPic from "../../public/images/projects/za-camp.png"
 import yummyPic from "../../public/images/projects/yummy-eats.png"
 import pricingPic from "../../public/images/projects/pricing-panel.png"
+import webFolkPic from "../../public/images/projects/web-folk.png"
+import scoreKeeperPic from "../../public/images/projects/score-keeper.png"
 import { GithubIcon } from '@/components/icons'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -78,29 +80,47 @@ export default function projects() {
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
             <div className='col-span-12'>
               <FeaturedProject
-                title="Gericht Restaurant"
-                img={project1}
-                github='/'
-                summary='A restaurant website, built using the power of React JS! This is designed to showcase our delicious menu, inviting atmosphere, and exceptional customer service. With our use of React JS, we are able to create a seamless user experience that is both visually stunning and easy to navigate. From browsing our menu to making a reservation, our website makes it simple to enjoy the full experience of our restaurant. Whether you are a regular or a first-time visitor, we hope our website helps you get a taste of what we have to offer and entices you to come dine with us soon.'
-                link="javascript:void(0)"
+                title="zaCamp"
+                img={zaCampPic}
+                summary='A campground website, built using the power of Node.js, Express.js, MongoDB..., With a slightly more interisting cluster map, for authentication each user can add, update or delete his own campgrounds and other users can review them, so it ends up with a whole bunch of different campgrounds'
+                github='https://github.com/zaomarfarid/zaCamp'
+                link="https://zacamp.onrender.com/"
                 type="Featured Project"
               />
             </div>
-            <div className='col-span-6 sm:col-span-12'>
+            <div className='col-span-6 md:col-span-12'>
               <Project
                 title="THE HEALTHY Eating Experience"
                 img={yummyPic}
-                github='/'
+                github='https://github.com/zaomarfarid/eats'
                 link="https://zaomarfarid.github.io/eats"
                 type="Project"
               />
             </div>
-            <div className='col-span-6 sm:col-span-12'>
+            <div className='col-span-6 md:col-span-12'>
               <Project
                 title="Pricing Panel"
                 img={pricingPic}
-                github='/'
+                github='https://github.com/zaomarfarid/pricing-panel'
                 link="https://zaomarfarid.github.io/pricing-panel"
+                type="Project"
+              />
+            </div>
+            <div className='col-span-6 md:col-span-12'>
+              <Project
+                title="Web Folk"
+                img={webFolkPic}
+                github='https://github.com/zaomarfarid/web-folk'
+                link="https://zaomarfarid.github.io/web-folk/"
+                type="Project"
+              />
+            </div>
+            <div className='col-span-6 md:col-span-12'>
+              <Project
+                title="Score Keeper"
+                img={scoreKeeperPic}
+                github='https://github.com/zaomarfarid/score-keeper'
+                link="https://zaomarfarid.github.io/score-keeper/"
                 type="Project"
               />
             </div>
