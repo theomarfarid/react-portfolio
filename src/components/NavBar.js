@@ -60,13 +60,13 @@ export default function NavBar() {
         </nav>
 
         <nav className='flex items-center justify-center flex-wrap'>
-          <motion.a href='https://twitter.com/zaomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>
+          <motion.a href='https://twitter.com/theomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>
             <TwitterXIcon className='dark:fill-light' />
           </motion.a>
-          <motion.a href='https://github.com/zaomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>
+          <motion.a href='https://github.com/theomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>
             <GithubIcon />
           </motion.a>
-          <motion.a href='https://www.linkedin.com/in/zaomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>
+          <motion.a href='https://www.linkedin.com/in/theomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>
             <LinkedInIcon />
           </motion.a>
           <button
@@ -96,13 +96,13 @@ export default function NavBar() {
             </nav>
 
             <nav className='flex items-center justify-center flex-wrap mt-2'>
-              <motion.a href='https://twitter.com/zaomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 sm:mx-1'>
+              <motion.a href='https://twitter.com/theomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 sm:mx-1'>
                 <TwitterXIcon className='fill-light dark:fill-dark' />
               </motion.a>
-              <motion.a href='https://github.com/zaomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 bg-light dark:bg-dark rounded-full sm:mx-1'>
+              <motion.a href='https://github.com/theomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 bg-light dark:bg-dark rounded-full sm:mx-1'>
                 <GithubIcon />
               </motion.a>
-              <motion.a href='https://www.linkedin.com/in/zaomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 sm:mx-1'>
+              <motion.a href='https://www.linkedin.com/in/theomarfarid' target='_blank' whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 sm:mx-1'>
                 <LinkedInIcon />
               </motion.a>
               <button
