@@ -83,7 +83,7 @@ export default function projects() {
                 title="zaCamp"
                 img={zaCampPic}
                 summary='A campground website, built using the power of Node.js, Express.js, and MongoDB..., With a slightly more interesting cluster map, for authentication, each user can add, update, or delete his campground and other users can review them, so it ends up with a whole bunch of different campgrounds'
-                github='https://github.com/zaomarfarid/zaCamp'
+                github='https://github.com/theomarfarid/zaCamp'
                 link="https://zacamp.onrender.com/"
                 type="Featured Project"
               />
@@ -92,8 +92,8 @@ export default function projects() {
               <Project
                 title="THE HEALTHY Eating Experience"
                 img={yummyPic}
-                github='https://github.com/zaomarfarid/eats'
-                link="https://zaomarfarid.github.io/eats"
+                github='https://github.com/theomarfarid/eats'
+                link="https://theomarfarid.github.io/eats"
                 type="Project"
               />
             </div>
@@ -101,8 +101,8 @@ export default function projects() {
               <Project
                 title="Pricing Panel"
                 img={pricingPic}
-                github='https://github.com/zaomarfarid/pricing-panel'
-                link="https://zaomarfarid.github.io/pricing-panel"
+                github='https://github.com/theomarfarid/pricing-panel'
+                link="https://theomarfarid.github.io/pricing-panel"
                 type="Project"
               />
             </div>
@@ -110,8 +110,8 @@ export default function projects() {
               <Project
                 title="Web Folk"
                 img={webFolkPic}
-                github='https://github.com/zaomarfarid/web-folk'
-                link="https://zaomarfarid.github.io/web-folk/"
+                github='https://github.com/theomarfarid/web-folk'
+                link="https://theomarfarid.github.io/web-folk/"
                 type="Project"
               />
             </div>
@@ -119,8 +119,8 @@ export default function projects() {
               <Project
                 title="Score Keeper"
                 img={scoreKeeperPic}
-                github='https://github.com/zaomarfarid/score-keeper'
-                link="https://zaomarfarid.github.io/score-keeper/"
+                github='https://github.com/theomarfarid/score-keeper'
+                link="https://theomarfarid.github.io/score-keeper/"
                 type="Project"
               />
             </div>
